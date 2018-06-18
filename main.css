@@ -4,6 +4,55 @@ body{
 	margin: 0;
 	font-family: 'Roboto Mono', monospace;
 }
+.div{
+	margin: 0 auto;
+	width: 50px;
+	margin-top: 50%;
+}
+.d1,.d2,.d3{
+	position: relative;
+	width:15px;
+	height:15px;
+	border-radius:50px;
+	animation: jump 3s infinite;
+
+
+}
+.d1{
+	background-color:#1a1aff;
+	top:25px;
+}
+.d2{
+	background-color: #1a75ff;
+	animation-delay:0.2s;
+	left:20px;
+	top:10px;
+
+}
+.d3{
+	background-color: #4d88ff;
+	animation-delay: 0.5s;
+	left:40px;
+	bottom: 5px;
+}
+@keyframes jump{
+	25%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+	50%{
+		opacity: 0.75;
+		transform: translateY(0px);
+	}
+	75%{
+		opacity: 0.50;
+		transform: translateY(0px);
+	}
+	25%{
+		opacity: 0.25;
+		transform: translateY(0px);
+	}
+}
 #mobile,#desktop, #q, #footer{
 	color: white;
 	text-align: center;
@@ -14,21 +63,19 @@ body{
 }
 #footer{
 	font-size: 8px;
-	margin-top: 20%;
+	margin-top: 30%;
 }
 #bar{
 	background-color: #1a1a1a;
 	color: white;
 	width: 100%;
-	height: 37px;
-	text-decoration: none;
-	font-size: 16px;
-	padding-top: 20px;
+	height: 45px;
+	font-size: 10px;
 	position: fixed;
+	padding: 5px;
 	border-top: #0d0d0d;
 }
 .bard{
-	padding: 20px;
 	text-decoration: none;
 	color: white;
 }
@@ -61,7 +108,7 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	padding-bottom: 10px;
-	margin-top: 2.7%;
+	margin-top: -2.7%;
 	width: 100%;
 	height: 100%;
 }
@@ -73,7 +120,7 @@ body{
 	color: white;
 	width: 100%;
 }
-#blogt{
+#projectt{
 	color: black;
 	text-align: center;
 }
@@ -85,4 +132,59 @@ body{
 #ctitleg, #ctitleg1{
 	color: black;
 	text-align: center;
+}
+#projectt{
+	color: black;
+	text-align: left;
+	margin-left: 8px;
+}
+#ptitle{
+	text-align: center;
+}
+#hmain{
+	margin-top: 40%;
+	margin-left: 8px;
+}
+#hfooter{
+	font-size: 8px;
+	text-align: center;
+	/*add background color here then  sololearn/code pen and github profile links*/
+}
+.icon{
+	width: 35px;
+	height: 35px;
+}
+#bar a{
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+#bar a img{
+	display: block;
+	margin: auto;
+}
+#bar a span{
+	display: block;
+}
+#settings{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 0px;
+	right: 5px;
+	padding-top: 8px;
+}
+#stitle{
+	text-align: center;
+}
+#settingst{
+	color: white;
+	margin: 8px;
+}
+#sback{
+	position: absolute;
+	top: 0px;
+	right: 10px;
 }
