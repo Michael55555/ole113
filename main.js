@@ -128,7 +128,7 @@ function(){
 			}
 		$("#homet").show();
 		home.style.color = "#999999";
-		document.getElementById("profile_pic").style.marginTop = "-4.7%";
+		document.getElementById("profile_pic").style.marginTop = "-5%";
 		};
 	}
 	function Desktop(){
