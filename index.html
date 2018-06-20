@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 	<head>
@@ -12,19 +11,17 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-
+		<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Expanded" rel="stylesheet">
 	</head>
 	<body>
 		<div class="div">
+			<p id = "loading">LOADING . . .</p>
 			<div class="d1"></div>
 			<div class="d2"></div>
 			<div class="d3"></div>
-		</div>
-		<p id = "top">HOME</p>
+        </div>
+        <p id = "top">HOME</p>
 		<img id = "settings" src = "settings-21-32.png" />
-		<p id = "q">What device are you using?</p>
-		<h1 id = "mobile">Mobile</h1>
-		<h1 id = "desktop">Desktop</h1>
 		<center>
 			<div id = "bar">
 				<a id = "codes" class = "bard"><img class = "icon" src = "Services.png" />CODES</a>
@@ -32,10 +29,6 @@
 				<a id = "project" class = "bard"><img class = "icon" src = "Box.png" />PROJECTS</a>
 			</div>
 		</center>
-		<footer id = "footer">&copy; 2018 Ole113 for questions/feedback check out the GitHub page: https://github.com/Ole113</footer>
-		<h1 id = "error1"><br><br><br>ERROR <br> <br>Your device must be larger than 1000 pixil's wide to use the desktop version. <br><br>If this error message is incorrectly showing report it at: https://github.com/Ole113/ole113</h1>
-		<h1 id = "error2"><br><br><br>ERROR <br> <br>Your device must be smaller than 1000 pixil's wide to use the mobile version. <br><br>If this error message is incorrectly showing report it at: https://github.com/Ole113/ole113</h1>
-		<h1 id = "back">BACK</h1>
 		<div id = "homet">
 			<img id="profile_pic" src = "profile_pic.jpg" alt = "Picture(wont load unless your using the actual website)"/>
 			<h1 id = "htitle">Welcome to ole113.github.com!</h1>
@@ -57,7 +50,10 @@
 			<p id = "sback">BACK</p>
 			<div id = "toggle" ></div>
 			<div id = "tcircle"></div>
-			
 		</div>
-	</body>
+		<script>
+            $("#bar, #top,#homet,#projectt, #codet,#settings, #settingst").hide();
+            
+		</script>
+    </body>
 </html>
