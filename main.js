@@ -1,7 +1,8 @@
 window.onload = function(){
     $(".div").hide();
-    var height = window.innerHeight - 52;
+    var height = window.innerHeight - 60;
     var tcolor = "default";
+    var hmain = document.getElementById("hmain");
 	var bar = document.getElementById("bar");
 	var theme = document.getElementById("tcircle");
 	var tcircle = document.getElementById("tcircle");
@@ -14,6 +15,7 @@ window.onload = function(){
 	var top = document.getElementById("top");
 	var profile_pic = document.getElementById("profile_pic");
 	var htitle = document.getElementById("htitle");
+	var mfooter = document.getElementsByClassName("mfooter");
 	theme.addEventListener("click", function(){
 		if(tcolor != "gray"){
 		    tcolor = "gray";
@@ -88,13 +90,14 @@ window.onload = function(){
         $("#homet").show();
         home.style.color = "#999999";
         profile_pic.style.marginTop = "-5%";
-        bar.style.top = height + "px";
+		bar.style.top = height + "px";
+		mfooter[0].style.width = 83 + "%";
         }
     }
     /* desktop render */
     function Desktop(){
         this.render = function(){
-            bar.style.top = height - 3 + "px";
+            bar.style.top = height + 5 + "px";
             if(tcolor == "gray"){
                 document.body.style.backgroundColor = "#212121";
             }else{	
@@ -104,6 +107,8 @@ window.onload = function(){
             $("#bar,#top, #homet, #settings").show();
             profile_pic.style.marginTop = "-1.8%";
             htitle.style.marginTop = "-45%";
+			hmain.style.marginTop = 42 + "%";
+			mfooter[0].style.width = 92.5 + "%";
         }
     }
     var desktop = new Desktop();
