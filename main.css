@@ -1,7 +1,8 @@
 body{
 	border: 0;
 	margin: 0;
-    font-family: 'Roboto Mono', monospace;
+    	font-family: 'Roboto Mono', monospace;
+	overflow-x: hidden;
 }
 .div{
 	margin: 0 auto;
