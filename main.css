@@ -146,12 +146,16 @@ body{
 }
 #hmain{
 	margin-top: 40%;
-	margin-left: 8px;
+    margin-left: 8px;
+    margin: 10px;
 }
-#hfooter{
-	font-size: 8px;
-	text-align: center;
-	/*add background color here then  sololearn/code pen and github profile links*/
+.mfooter{
+    font-size: 8px;
+    text-align: center;
+    color: white;
+    background-color: #18344e;
+	padding: 50px;
+    border-top: 2px #060d13;
 }
 .icon{
 	width: 35px;
@@ -167,9 +171,6 @@ body{
 #bar a img{
 	display: block;
 	margin: auto;
-}
-#bar a span{
-	display: block;
 }
 #settings{
 	width: 20px;
@@ -208,4 +209,10 @@ body{
 	top:191px;
 	left:11.5px;
 	box-shadow:1px 1px 3px #666;
+}
+.ficon{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	padding: 15px;
 }
