@@ -3,8 +3,6 @@ body{
 	margin: 0;
 		font-family: 'Roboto Mono', monospace;
 	overflow-x: hidden;
-	-webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
 }
 .div{
 	margin: 0 auto;
