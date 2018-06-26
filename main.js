@@ -61,6 +61,9 @@ window.onload = function(){
 			$("#hmain_codes_image").attr("src", "hmain_codes_image_light_theme.png");
 			ctitle_game1.style.color = "black";
 			ctitle_game.style.color = "black";
+			homet.style.color = "black";
+			projectt.style.color = "black";
+			ctitle.style.color = "black";
 		}
 	});
 	sback.addEventListener("click", function(){
@@ -85,8 +88,8 @@ window.onload = function(){
 			project.style.color = "#212121";
 		}else{
 			home.style.color = "white";
-			codes.style.color = "white";
-			project.style.color = "#999999";
+			codes.style.color = "#808080";
+			project.style.color = "white";
 		}
 	});
 	home.addEventListener("click", function(){
@@ -98,9 +101,9 @@ window.onload = function(){
 			codes.style.color = "#212121";
 			project.style.color = "#212121";
 		}else{
-			home.style.color = "white";
+			home.style.color = "#808080";
 			codes.style.color = "white";
-			project.style.color = "#999999";
+			project.style.color = "white";
 		}
 	});
 	project.addEventListener("click", function(){
@@ -136,12 +139,17 @@ window.onload = function(){
 			document.body.style.backgroundColor = "white";
 			bar.style.backgroundColor = "#212121";
 			top.style.backgroundColor = "#212121";
-			top.style.color = "black";
+			top.style.color = "white";
 			homet.style.color = "white";
 			projectt.style.color = "white";
 			bard[0].style.color = "white";
 			home.style.color = "#999999";
 			project.style.color = "white";
+			ctitle_game1.style.color = "black";
+			ctitle_game.style.color = "black";
+			homet.style.color = "black";
+			projectt.style.color = "black";
+			ctitle.style.color = "black";
 		}
 		$("#homet").show();
 
@@ -167,6 +175,11 @@ window.onload = function(){
 			bard[0].style.color = "#212121";
 			home.style.color = "#808080";
 			project.style.color = "#212121";
+			ctitle_game1.style.color = "white";
+			ctitle_game.style.color = "white";
+			homet.style.color = "white";
+			projectt.style.color = "white";
+			ctitle.style.color = "white";
 			}else{	
 				document.body.style.backgroundColor = "white";
 			bar.style.backgroundColor = "#212121";
@@ -178,6 +191,11 @@ window.onload = function(){
 			bard[0].style.color = "white";
 			home.style.color = "#999999";
 			project.style.color = "white";
+			ctitle_game1.style.color = "black";
+			ctitle_game.style.color = "black";
+			homet.style.color = "black";
+			projectt.style.color = "black";
+			ctitle.style.color = "black";
 			}
 			$("#sback,#settingst").hide();
 			$("#bar,#top, #homet, #settings, .mfooter").show();
