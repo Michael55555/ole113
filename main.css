@@ -85,6 +85,11 @@ body{
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 	z-index: 3;
+
+}
+.bard img{
+	width: 35px;
+	height: 35px;
 }
 #top{
 	text-align: center;
@@ -149,7 +154,7 @@ body{
 	text-align: center;
 	font-size: 15px;
 }
-#ctitleg, #ctitleg1{
+#ctitle_game, #ctitle_game1{
 	color: black;
 	text-align: center;
 }
@@ -169,10 +174,6 @@ body{
 	padding: 50px;
 	border-top: 2px #060d13;
 }
-.icon{
-	width: 35px;
-	height: 35px;
-}
 #bar a{
 	display: inline-block;
 	vertical-align: top;
@@ -188,7 +189,7 @@ body{
 	width: 20px;
 	height: 20px;
 	position: absolute;
-	top: 0px;
+	top: 0;
 	right: 5px;
 	padding-top: 6.5px;
 }
@@ -201,7 +202,7 @@ body{
 }
 #sback{
 	position: absolute;
-	top: 0px;
+	top: 0;
 	right: 10px;
 }
 #toggle{
@@ -242,9 +243,9 @@ body{
 	overflow: auto;
 	font-size: 20px;
 	border-bottom: 5px solid  #78482C;
-	margin-bottom: 50px;
 	border-radius: 3px;
 	margin: 5px;
+	margin-bottom: 50px;
 }
 #hmain_projects p{
 	margin: 10px;
@@ -282,4 +283,44 @@ a{
 	height: 250px;
 	float: right;
 	margin-top: -7%;
+}
+
+
+/* ---------- Pong Game Code ---------- */
+
+
+#pong{
+	background-color: #212121;
+}
+#Start{
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+	text-align: center;
+}
+#sub{
+	font-size: 18px;
+}
+#title{
+	font-size: 35px;
+	margin-top: 40%;
+}
+#start, #info{
+	font-size: 30px;
+}
+#infob, #infoi{
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+}
+#info{
+	font-size: 30px;
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+	text-align: center;
+}
+#infob{
+	text-align: center;
+	font-size: 30px;
+}
+#infoi{
+	font-size: 25px;
 }
