@@ -13,6 +13,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Expanded" rel="stylesheet">
+		<link rel="icon" href = "favicon.ico">
 	</head>
 	<body>
 		<div class="div">
@@ -22,6 +23,7 @@
 			<div class="d3"></div>
 		</div>
 		<p id = "top">HOME</p>
+		<img id = "main_favicon_dark" src = "main_favicon_dark.png" alt = "favicon image">
 		<img id = "settings" src = "settings_light_theme.png" />
 		<center>
 			<div id = "bar">
@@ -33,7 +35,7 @@
 		<div id = "homet">
 			<img id="profile_pic" src = "profile_pic.jpg" alt = "Picture(wont load unless your using the actual website)"/>
 			<div class = "image">
-				<h1 id = "htitle">ole113.github.com<br><span id = "htitle_info">A workspace to get a better understanding about server side aspects and API's of websites.</span></h1>
+				<h1 id = "htitle"><img id = "main_favicon_light" src = "main_favicon_light.png" alt = "same as favicon in tab" >ole113.github.io<span id = "htitle_info">A workspace to get a better understanding about server side aspects and API's of websites.</span></h1>
 			</div>
 			<!-- Change this headers font to something different -->
 			<aside id = "hmain_title"><p>ole113.github.com, a workspace to learn more about front end API's and server based development.</p></aside>
@@ -86,7 +88,7 @@
 			<footer id = "hfooter">&copy; 2018 Ole113 for questions/feedback check out the GitHub page: https://github.com/Ole113</footer><br>
 		</div>
 		<script>
-			$("#bar, #top,#homet,#projectt, #codet,#settings, #settingst, .mfooter").hide();
+			$("#bar, #top,#homet,#projectt, #codet,#settings, #settingst, .mfooter, #main_favicon_dark, #main_favicon_light").hide();
 		</script>
 	</body>
 </html>
