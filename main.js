@@ -23,6 +23,7 @@ window.onload = function(){
 	var homet = document.getElementById("homet");
 	var projectt = document.getElementById("projectt");
 	var ctitle_game1 = document.getElementById("ctitle_game1");
+	var main_favicon_light = document.getElementById("main_favicon_light");
 	var ctitle_game = document.getElementById("ctitle_game");
 	var ctitle = document.getElementById("ctitle");
 	theme.addEventListener("click", function(){
@@ -74,7 +75,7 @@ window.onload = function(){
 		}
 	});
 	settings.addEventListener("click", function(){
-		$("#homet, #bar, #top, #projectt, #codet, #settings, .mfooter").hide();
+		$("#main_favicon_dark, #homet, #bar, #top, #projectt, #codet, #settings, .mfooter").hide();
 		$("#settingst, #sback").show();
 		document.body.style.backgroundColor = "#212121";
 	});
@@ -151,15 +152,16 @@ window.onload = function(){
 			projectt.style.color = "black";
 			ctitle.style.color = "black";
 		}
-		$("#homet").show();
+		$("#homet,#main_favicon_light, #main_favicon_dark").show();
 
 		home.style.color = "#999999";
 		profile_pic.style.marginTop = "-5%";
 		mfooter[0].style.width = 83 + "%";
-		htitle.style.fontSize = "20px";
-		htitle_info.style.fontSize = "13px";
-		htitle_info.style.marginTop = "19%";
-		htitle.style.marginTop = "-65%";
+		htitle.style.fontSize = "25px";
+		htitle_info.style.fontSize = "11.5px";
+		htitle.style.marginTop = "-50%";
+		main_favicon_light.style.width = "30px";
+		main_favicon_light.style.height = "30px";
 		}
 	}
 	/* desktop render */
@@ -198,7 +200,7 @@ window.onload = function(){
 			ctitle.style.color = "black";
 			}
 			$("#sback,#settingst").hide();
-			$("#bar,#top, #homet, #settings, .mfooter").show();
+			$("#main_favicon_light, #main_favicon_dark, #bar,#top, #homet, #settings, .mfooter").show();
 			profile_pic.style.marginTop = "-1.8%";
 			htitle.style.marginTop = "-45%";
 			mfooter[0].style.width = window.innerWidth;
@@ -210,9 +212,6 @@ window.onload = function(){
 	var desktop = new Desktop();
 	var mobile = new Mobile();
 	//More device size specification
-	if(window.innerWidth < 800){
-
-	}
 	if(window.innerWidth > 800){
 		desktop.render();
 	}else{
