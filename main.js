@@ -159,7 +159,7 @@ window.onload = function(){
 		mfooter[0].style.width = 83 + "%";
 		htitle.style.fontSize = "25px";
 		htitle_info.style.fontSize = "11.5px";
-		htitle.style.marginTop = "-50%";
+		htitle.style.marginTop = "-55%";
 		main_favicon_light.style.width = "30px";
 		main_favicon_light.style.height = "30px";
 		}
